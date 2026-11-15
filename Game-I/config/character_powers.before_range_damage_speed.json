@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "values": {
+    "GREEN": {
+      "flight_charge": {
+        "speed": 1000.0,
+        "acceleration": 4000.0,
+        "impact_force": 300.0,
+        "damage": 2000.0,
+        "range": 2000.0
+      },
+      "grab": {
+        "grab_range": 60.0,
+        "lift_limit": 500.0,
+        "throw_force": 400.0,
+        "throw_speed": 600.0,
+        "impact_damage": 1500.0
+      },
+      "reflexes": {
+        "dash_cooldown_scale": 100.0
+      },
+      "healing": {
+        "regen": 300.0,
+        "delay": 0.0
+      },
+      "strength": {
+        "strength": 400.0
+      },
+      "dive_bomb": {
+        "dive_speed": 1200.0,
+        "target_range": 2000.0,
+        "force": 400.0,
+        "damage": 6000.0,
+        "radius": 120.0,
+        "rise_height": 400.0,
+        "cooldown": 0.0,
+        "energy": 0.0
+      },
+      "stamina": {
+        "energy_regen": 60.0
+      },
+      "shockwave_punch": {
+        "charge_time": 0.1,
+        "punch_force": 300.0,
+        "damage": 2000.0,
+        "radius": 100.0,
+        "force": 300.0,
+        "cooldown": 0.0,
+        "energy": 0.0
+      },
+      "ground_slam": {
+        "dive_speed": 900.0,
+        "damage": 2000.0,
+        "radius": 100.0,
+        "force": 300.0,
+        "crater_scale": 400.0,
+        "cooldown": 0.0,
+        "energy": 0.0
+      },
+      "melee": {
+        "light_damage": 500.0,
+        "heavy_damage": 1500.0,
+        "impact_force": 196.0,
+        "reach": 15.0,
+        "recovery": 2.0,
+        "charge_time": 0.1
+      }
+    },
+    "RED": {
+      "shield_combat": {
+        "light_damage": 500.0,
+        "heavy_damage": 1500.0,
+        "impact_force": 200.0,
+        "block_strength": 100.0,
+        "parry_window": 5.0,
+        "recovery": 2.0,
+        "charge_time": 0.1
+      },
+      "speed": {
+        "speed": 400.0,
+        "collision_damage": 800.0
+      },
+      "stamina": {
+        "energy_regen": 60.0
+      },
+      "healing": {
+        "regen": 300.0,
+        "delay": 0.0
+      },
+      "radiation_resistance": {
+        "radiation_resistance": 100.0
+      },
+      "durability": {
+        "max_health": 10000.0,
+        "resistance": 95.0,
+        "impact_resistance": 100.0,
+        "knockback_resistance": 100.0
+      },
+      "radioactive_discharge": {
+        "output": 500.0,
+        "radius": 120.0,
+        "damage": 8000.0,
+        "null_duration": 0.5,
+        "cooldown": 0.0
+      },
+      "strength": {
+        "strength": 400.0
+      },
+      "dash": {
+        "speed": 400.0
+      },
+      "nullification": {
+        "radius_scale": 200.0,
+        "duration": 0.5
+      },
+      "chest_blast": {
+        "charge_time": 0.1,
+        "intensity": 400.0,
+        "damage": 4000.0,
+        "radius": 120.0,
+        "buildup": 0.0,
+        "force": 300.0,
+        "cooldown": 0.0
+      },
+      "grab": {
+        "grab_range": 60.0,
+        "lift_limit": 500.0,
+        "throw_force": 400.0,
+        "throw_speed": 600.0,
+        "impact_damage": 1500.0
+      }
+    },
+    "BLACK": {
+      "healing": {
+        "regen": 300.0,
+        "delay": 0.0
+      },
+      "durability": {
+        "max_health": 10000.0,
+        "resistance": 95.0,
+        "impact_resistance": 100.0,
+        "knockback_resistance": 100.0
+      }
+    }
+  },
+  "disabled": []
+}

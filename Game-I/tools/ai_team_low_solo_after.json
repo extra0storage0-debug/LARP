@@ -1,0 +1,51 @@
+{
+  "quality": "low",
+  "window": [
+    1600.0,
+    900.0
+  ],
+  "enemies": 0,
+  "flight_speed": 9999.0,
+  "flight_boost_speed": 1111.0,
+  "scenarios": [
+    {
+      "name": "ground_surrounded",
+      "seconds": 20.0,
+      "frames": 953,
+      "average_fps": 47.6,
+      "frame_ms_mean": 20.88,
+      "frame_ms_p95": 28.38,
+      "one_percent_low_fps": 30.7,
+      "worst_frame_ms": 35.2,
+      "team_update_ms": 0.0,
+      "player_health": 100.0,
+      "altitude": 4.2
+    },
+    {
+      "name": "flight_cruise",
+      "seconds": 20.0,
+      "frames": 789,
+      "average_fps": 39.4,
+      "frame_ms_mean": 25.19,
+      "frame_ms_p95": 43.76,
+      "one_percent_low_fps": 17.8,
+      "worst_frame_ms": 104.9,
+      "team_update_ms": 0.0,
+      "player_health": 100.0,
+      "altitude": 176.6
+    },
+    {
+      "name": "flight_boost",
+      "seconds": 20.0,
+      "frames": 667,
+      "average_fps": 33.3,
+      "frame_ms_mean": 29.79,
+      "frame_ms_p95": 52.93,
+      "one_percent_low_fps": 14.7,
+      "worst_frame_ms": 99.9,
+      "team_update_ms": 0.0,
+      "player_health": 100.0,
+      "altitude": 202.1
+    }
+  ]
+}

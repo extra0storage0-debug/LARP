@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "profiles": {
+    "my_sentry": {
+      "super_jump_power_pct": 11
+    },
+    "common_enemies": {
+      "ground_speed": 99,
+      "running_speed_pct": 150,
+      "ground_acceleration_pct": 100,
+      "ground_deceleration": 9,
+      "turning_speed": 300,
+      "movement_responsiveness_pct": 100,
+      "flight_responsiveness_pct": 100,
+      "air_turning_speed": 125,
+      "vertical_movement_speed": 25,
+      "boost_duration_cs": 0,
+      "boost_cooldown_cs": 0,
+      "flight_speed": 111,
+      "flight_boost_speed": 111,
+      "flight_acceleration_pct": 100,
+      "flight_deceleration_pct": 70,
+      "horizontal_speed_pct": 100,
+      "vertical_speed_pct": 100,
+      "flight_turning_pct": 100,
+      "flight_stability_pct": 100,
+      "air_braking": 99999999,
+      "boost_multiplier_pct": 100,
+      "takeoff_speed_dm": 75,
+      "landing_speed": 24,
+      "target_switching_pct": 100,
+      "reaction_time_pct": 100,
+      "detection_sensitivity_pct": 100,
+      "detection_range": 20000,
+      "reaction_speed_pct": 100,
+      "decision_frequency_pct": 100,
+      "pursuit_aggression_pct": 100,
+      "flight_pursuit_pct": 100,
+      "team_coordination_pct": 100,
+      "flanking_frequency_pct": 100,
+      "target_prediction_pct": 100,
+      "cape_quality_pct": 100,
+      "animation_speed_pct": 100
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "quality": "high",
+  "duration_per_scenario": 1.5,
+  "isolated_save_path": "C:\\Users\\raoha\\AppData\\Local\\Temp\\sentry_perf_save_t_64hvi7",
+  "resolution": "1600x900",
+  "geometry_method": "Panda GeomNode traversal; geoms are a draw-call upper bound",
+  "gpu_utilization": "not captured; broad Windows GPU Engine counter query timed out",
+  "scenarios": [
+    {
+      "name": "maximum_speed_flight",
+      "counts": {
+        "traffic_updates": 167,
+        "game_updates": 38,
+        "npc_updates": 81,
+        "chunk_unloads": 3,
+        "chunk_builds": 53,
+        "object_physics_steps": 0
+      },
+      "timings": {
+        "game_update_ms": 485.02,
+        "chunk_unload_ms": 5.66,
+        "chunk_build_ms": 159.41
+      },
+      "frames": 18,
+      "elapsed_seconds": 1.530791400000453,
+      "average_fps": 11.75862367661242,
+      "frame_ms_mean": 84.92078889523529,
+      "frame_ms_p95": 191.9135000789538,
+      "one_percent_low_fps": 5.210680851470047,
+      "process_cpu_percent_one_core": 93.90567519516863,
+      "working_set_mb": 476.53125,
+      "private_mb": 395.9296875,
+      "working_set_delta_mb": 10.3203125,
+      "active_chunks": 9,
+      "active_objects": 96,
+      "active_npcs": 14,
+      "active_traffic": 6,
+      "active_debris": 0,
+      "pooled_debris": 0,
+      "active_explosions": 0,
+      "terrain_craters": 0,
+      "scene_entities": 1156,
+      "geom_nodes": 718,
+      "draw_call_upper_bound": 718,
+      "triangle_count": 500900
+    },
+    {
+      "name": "multiple_simultaneous_explosions",
+      "counts": {
+        "chunk_unloads": 3,
+        "chunk_builds": 94,
+        "traffic_updates": 228,
+        "game_updates": 38,
+        "npc_updates": 89,
+        "object_physics_steps": 0
+      },
+      "timings": {
+        "chunk_unload_ms": 13.64,
+        "chunk_build_ms": 220.42,
+        "game_update_ms": 606.3
+      },
+      "frames": 18,
+      "elapsed_seconds": 1.5088643999770284,
+      "average_fps": 11.929501418599338,
+      "frame_ms_mean": 83.75498334256311,
+      "frame_ms_p95": 95.10730009060353,
+      "one_percent_low_fps": 10.514439996165958,
+      "process_cpu_percent_one_core": 96.30587082723424,
+      "working_set_mb": 482.328125,
+      "private_mb": 401.88671875,
+      "working_set_delta_mb": 0.0078125,
+      "active_chunks": 9,
+      "active_objects": 96,
+      "active_npcs": 16,
+      "active_traffic": 6,
+      "active_debris": 0,
+      "pooled_debris": 0,
+      "active_explosions": 3,
+      "terrain_craters": 0,
+      "scene_entities": 1216,
+      "geom_nodes": 732,
+      "draw_call_upper_bound": 732,
+      "triangle_count": 508468
+    }
+  ]
+}

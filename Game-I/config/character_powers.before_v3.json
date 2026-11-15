@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "values": {
+    "WHITE": {
+      "heat_vision": {
+        "range": 100000,
+        "damage": 2
+      },
+      "high_speed_attack": {
+        "range": 100000,
+        "damage": 6000,
+        "speed": 57
+      },
+      "time_stop": {
+        "range": 100000,
+        "damage": 8000,
+        "speed": 25
+      },
+      "kryptonian_vision": {
+        "range": 100000
+      },
+      "solar_overcharge": {
+        "range": 100000,
+        "damage": 8000
+      },
+      "melee": {
+        "range": 300,
+        "damage": 2500,
+        "speed": 1000
+      }
+    },
+    "BLACK": {
+      "laser_vision": {
+        "range": 100000,
+        "damage": 3000
+      },
+      "high_speed_attack": {
+        "range": 100000,
+        "damage": 6000,
+        "speed": 3000
+      },
+      "time_stop": {
+        "range": 100000,
+        "damage": 8000,
+        "speed": 1500
+      },
+      "laser_overdrive": {
+        "range": 100000,
+        "damage": 8000
+      },
+      "melee": {
+        "range": 300,
+        "damage": 2500,
+        "speed": 1000
+      }
+    },
+    "YELLOW": {
+      "bomb_mode": {
+        "range": 100000,
+        "damage": 6000,
+        "speed": 300
+      },
+      "high_speed_attack": {
+        "range": 100000,
+        "damage": 6000,
+        "speed": 3000
+      },
+      "time_stop": {
+        "range": 100000,
+        "damage": 8000,
+        "speed": 1500
+      },
+      "massive_blast": {
+        "range": 100000,
+        "damage": 20000
+      },
+      "void_unleashed": {
+        "range": 100000,
+        "damage": 6000
+      },
+      "melee": {
+        "range": 300,
+        "damage": 2500,
+        "speed": 1000
+      }
+    },
+    "GREEN": {
+      "flight_charge": {
+        "range": 100000,
+        "damage": 5000,
+        "speed": 1000
+      },
+      "high_speed_attack": {
+        "range": 100000,
+        "damage": 6000,
+        "speed": 3000
+      },
+      "time_stop": {
+        "range": 100000,
+        "damage": 8000,
+        "speed": 1500
+      },
+      "shockwave_punch": {
+        "range": 100000,
+        "damage": 6000
+      },
+      "dive_bomb": {
+        "range": 100000,
+        "damage": 9000,
+        "speed": 1000
+      },
+      "melee": {
+        "range": 300,
+        "damage": 2500,
+        "speed": 1000
+      }
+    },
+    "RED": {
+      "bomb_mode": {
+        "range": 100000,
+        "damage": 6000,
+        "speed": 300
+      },
+      "massive_blast": {
+        "range": 100000,
+        "damage": 20000
+      },
+      "nullification": {
+        "range": 100000
+      },
+      "radioactive_discharge": {
+        "range": 100000,
+        "damage": 9000
+      }
+    }
+  }
+}

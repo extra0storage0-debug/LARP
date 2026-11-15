@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "values": {
+    "WHITE": {
+      "ground_execution": {
+        "speed": 661
+      },
+      "character": {
+        "health": 100000,
+        "healing_speed": 100,
+        "run_speed": 497
+      },
+      "high_speed_attack": {
+        "speed": 112
+      },
+      "melee": {
+        "speed": 193
+      }
+    },
+    "YELLOW": {
+      "character": {
+        "health": 100000,
+        "healing_speed": 100
+      },
+      "high_speed_attack": {
+        "speed": 209
+      },
+      "void_form": {
+        "damage": 339,
+        "range": 1
+      }
+    },
+    "GREEN": {
+      "character": {
+        "health": 100000,
+        "healing_speed": 100,
+        "run_speed": 32
+      },
+      "high_speed_attack": {
+        "speed": 250,
+        "damage": 1111
+      },
+      "time_stop": {
+        "speed": 128,
+        "damage": 2222
+      },
+      "melee": {
+        "speed": 186,
+        "damage": 442
+      },
+      "squad_summon": {
+        "range": 5000,
+        "active_seconds": 1,
+        "cycle_seconds": 1,
+        "viltrumites": 5
+      },
+      "speed_execution": {
+        "speed": 159
+      }
+    },
+    "BLACK": {
+      "character": {
+        "health": 100000,
+        "healing_speed": 100
+      },
+      "high_speed_attack": {
+        "speed": 165
+      },
+      "neck_laser_execution": {
+        "speed": 147
+      },
+      "time_stop": {
+        "speed": 186
+      },
+      "melee": {
+        "speed": 144
+      },
+      "laser_vision": {
+        "damage": 1013
+      }
+    },
+    "RED": {
+      "character": {
+        "health": 100000,
+        "healing_speed": 100,
+        "run_speed": 497
+      },
+      "flying_punch": {
+        "speed": 186
+      },
+      "aerial_grab_blast": {
+        "speed": 163
+      },
+      "radioactive_execution": {
+        "speed": 166
+      }
+    }
+  }
+}

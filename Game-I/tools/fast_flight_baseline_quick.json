@@ -1,0 +1,116 @@
+{
+  "quality": "low",
+  "duration_per_scenario": 10.0,
+  "isolated_save_path": "C:\\Users\\raoha\\AppData\\Local\\Temp\\sentry_perf_save_41m6txla",
+  "resolution": "1600x900",
+  "geometry_method": "Panda GeomNode traversal; geoms are a draw-call upper bound",
+  "gpu_utilization": "not captured; broad Windows GPU Engine counter query timed out",
+  "scenarios": [
+    {
+      "name": "ground_movement",
+      "counts": {
+        "game_updates": 458,
+        "npc_updates": 0,
+        "traffic_updates": 0,
+        "object_physics_steps": 0
+      },
+      "timings": {
+        "game_update_ms": 1776.65
+      },
+      "frames": 438,
+      "elapsed_seconds": 10.00764419999905,
+      "average_fps": 43.76654397845615,
+      "frame_ms_mean": 22.84373219638476,
+      "frame_ms_p95": 29.273999971337616,
+      "one_percent_low_fps": 31.615155054543422,
+      "process_cpu_percent_one_core": 98.98683248552084,
+      "working_set_mb": 355.5546875,
+      "private_mb": 278.20703125,
+      "working_set_delta_mb": 0.80859375,
+      "active_chunks": 9,
+      "active_objects": 0,
+      "active_npcs": 0,
+      "active_traffic": 0,
+      "active_debris": 0,
+      "pooled_debris": 0,
+      "active_explosions": 0,
+      "terrain_craters": 0,
+      "scene_entities": 425,
+      "geom_nodes": 242,
+      "draw_call_upper_bound": 242,
+      "triangle_count": 432492
+    },
+    {
+      "name": "flight_500m",
+      "counts": {
+        "game_updates": 453,
+        "npc_updates": 0,
+        "traffic_updates": 0,
+        "object_physics_steps": 0
+      },
+      "timings": {
+        "game_update_ms": 1761.1
+      },
+      "frames": 433,
+      "elapsed_seconds": 10.012905400013551,
+      "average_fps": 43.2441916408612,
+      "frame_ms_mean": 23.11985173093813,
+      "frame_ms_p95": 29.71929998602718,
+      "one_percent_low_fps": 28.980635143963752,
+      "process_cpu_percent_one_core": 97.21828591316589,
+      "working_set_mb": 359.84765625,
+      "private_mb": 282.5703125,
+      "working_set_delta_mb": 3.328125,
+      "active_chunks": 9,
+      "active_objects": 0,
+      "active_npcs": 0,
+      "active_traffic": 0,
+      "active_debris": 0,
+      "pooled_debris": 0,
+      "active_explosions": 0,
+      "terrain_craters": 0,
+      "scene_entities": 426,
+      "geom_nodes": 243,
+      "draw_call_upper_bound": 243,
+      "triangle_count": 432524
+    },
+    {
+      "name": "maximum_speed_flight",
+      "counts": {
+        "chunk_unloads": 12,
+        "chunk_builds": 12,
+        "game_updates": 424,
+        "npc_updates": 0,
+        "traffic_updates": 0,
+        "object_physics_steps": 0
+      },
+      "timings": {
+        "chunk_unload_ms": 2.48,
+        "chunk_build_ms": 363.67,
+        "game_update_ms": 2087.77
+      },
+      "frames": 404,
+      "elapsed_seconds": 10.01805549999699,
+      "average_fps": 40.32718724707818,
+      "frame_ms_mean": 24.792674256345755,
+      "frame_ms_p95": 30.794100021012127,
+      "one_percent_low_fps": 17.766943873916897,
+      "process_cpu_percent_one_core": 95.76459224050897,
+      "working_set_mb": 368.91015625,
+      "private_mb": 292.0703125,
+      "working_set_delta_mb": 2.84375,
+      "active_chunks": 9,
+      "active_objects": 0,
+      "active_npcs": 0,
+      "active_traffic": 0,
+      "active_debris": 0,
+      "pooled_debris": 0,
+      "active_explosions": 0,
+      "terrain_craters": 0,
+      "scene_entities": 413,
+      "geom_nodes": 240,
+      "draw_call_upper_bound": 240,
+      "triangle_count": 425864
+    }
+  ]
+}

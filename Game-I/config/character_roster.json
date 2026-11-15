@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "player": "BLACK",
+  "assignment": {
+    "WHITE": "enemy_team",
+    "BLACK": "my_team",
+    "YELLOW": "enemy_team",
+    "GREEN": "enemy_team",
+    "RED": "enemy_team"
+  },
+  "characters": {
+    "WHITE": {
+      "flight_enabled": true,
+      "flight_speed": "NORMAL",
+      "flight_boost": "NORMAL",
+      "helmet": false
+    },
+    "BLACK": {
+      "flight_enabled": true,
+      "flight_speed": "NORMAL",
+      "flight_boost": "NORMAL",
+      "helmet": false
+    },
+    "YELLOW": {
+      "flight_enabled": true,
+      "flight_speed": "NORMAL",
+      "flight_boost": "NORMAL",
+      "helmet": false
+    },
+    "GREEN": {
+      "flight_enabled": true,
+      "flight_speed": "NORMAL",
+      "flight_boost": "NORMAL",
+      "helmet": false
+    },
+    "RED": {
+      "flight_enabled": true,
+      "flight_speed": "NORMAL",
+      "flight_boost": "NORMAL",
+      "helmet": false
+    }
+  },
+  "session": {
+    "YELLOW": {
+      "vitals": {
+        "health": 100000,
+        "nullified": 0.0
+      },
+      "position": [
+        3949.746,
+        1.379,
+        -4402.965
+      ],
+      "flying": false
+    },
+    "WHITE": {
+      "vitals": {
+        "health": 100000,
+        "nullified": 0.0
+      },
+      "position": [
+        3892.229,
+        27.11,
+        -4412.463
+      ],
+      "flying": true
+    },
+    "GREEN": {
+      "vitals": {
+        "health": 100000,
+        "nullified": 0.0
+      },
+      "position": [
+        3979.738,
+        -1.75,
+        -4382.905
+      ],
+      "flying": false
+    },
+    "BLACK": {
+      "vitals": {
+        "health": 100000,
+        "nullified": 0.0
+      },
+      "position": [
+        3985.217,
+        0.127,
+        -4387.337
+      ],
+      "flying": false
+    },
+    "RED": {
+      "vitals": {
+        "health": 100000,
+        "nullified": 0.0
+      },
+      "position": [
+        3884.524,
+        73.803,
+        -4455.739
+      ],
+      "flying": false
+    }
+  },
+  "auto_target_lock": true
+}
